@@ -18,9 +18,9 @@ brew install openssl
 ```
 Then, run
 ```sh
-export CFLAGS="-I/usr/local/opt/openssl@1.1/include"
-export NISTFLAGS="-I/usr/local/opt/openssl@1.1/include"
-export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+export CFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
+export NISTFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
+export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"
 ```
 before compilation to add the OpenSSL header and library locations to the respective search paths.
 
